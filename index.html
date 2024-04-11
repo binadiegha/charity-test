@@ -264,7 +264,7 @@
         <div class="we-believe-map" style="background-image: url(assets/images/shapes/we-believe-map.png);"></div>
         <div class="container">
             <div class="section-title text-center">
-                <span class="section-title__tagline">welcome to charity</span>
+                <span class="section-title__tagline">welcome to Thrive Beyond Fibroids</span>
                 <h2 class="section-title__title">We Believe that We can Save <br> more Lifes with you</h2>
             </div>
             <div class="row">
@@ -274,33 +274,29 @@
                             <div class="we-believe__icon">
                                 <span class="icon-peace"></span>
                             </div>
-                            <h3 class="we-believe__title"><a href="contact.html">Support</a></h3>
-                            <p class="we-believe__text">Lorem ipsum is simply free text available in the market
-                                wesbites.</p>
+                            <h3 class="we-believe__title"><a href="contact.html">Awareness</a></h3>
+                            <p class="we-believe__text">ibroids impact women globally. Spread awareness, empower knowledge.</p>
                         </li>
                         <li class="we-believe__single wow fadeInUp" data-wow-delay="200ms">
                             <div class="we-believe__icon">
                                 <span class="icon-praying"></span>
                             </div>
-                            <h3 class="we-believe__title"><a href="contact.html">Prayers</a></h3>
-                            <p class="we-believe__text">Lorem ipsum is simply free text available in the market
-                                wesbites.</p>
+                            <h3 class="we-believe__title"><a href="contact.html">Support</a></h3>
+                            <p class="we-believe__text">Groups offer resources for coping. Community helps individuals facing fibroids..</p>
                         </li>
                         <li class="we-believe__single wow fadeInUp" data-wow-delay="300ms">
                             <div class="we-believe__icon">
                                 <span class="icon-peace-1"></span>
                             </div>
                             <h3 class="we-believe__title"><a href="volunteers.html">Volunteers</a></h3>
-                            <p class="we-believe__text">Lorem ipsum is simply free text available in the market
-                                wesbites.</p>
+                            <p class="we-believe__text">Volunteers drive fibroid awareness, education, and support initiatives. Join us.</p>
                         </li>
                         <li class="we-believe__single wow fadeInUp" data-wow-delay="400ms">
                             <div class="we-believe__icon">
                                 <span class="icon-heart"></span>
                             </div>
                             <h3 class="we-believe__title"><a href="donations.html">Donations</a></h3>
-                            <p class="we-believe__text">Lorem ipsum is simply free text available in the market
-                                wesbites.</p>
+                            <p class="we-believe__text">Donations fund fibroid research and support programs. Improve lives today.</p>
                         </li>
                     </ul>
                 </div>
@@ -315,12 +311,45 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-one__left">
-                        <div class="about-one__img wow slideInLeft" data-wow-delay="100ms"
+                        <div class="about-one__img wow fadeInUp" data-wow-delay="100ms"
                              data-wow-duration="2500ms">
-                            <img src="assets/images/resources/about-one-img-1.png" alt="">
-                            <div class="about-one__badge">
-                                <img src="assets/images/resources/about-one-badge.png" alt="">
+<!--                            <img src="assets/images/resources/about-one-img-1.png" alt="">-->
+
+                            <div>
+                                <canvas id="myChart"></canvas>
                             </div>
+
+                            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                            <script>
+                                const data = {
+                                    labels: [
+                                        'Red',
+                                        'Blue',
+                                        'Yellow'
+                                    ],
+                                    datasets: [{
+                                        label: 'My First Dataset',
+                                        data: [30, 20, 50],
+                                        backgroundColor: [
+                                            '#008080',
+                                            '#FFC0CB',
+                                            'rgb(255, 205, 86)'
+                                        ],
+                                        hoverOffset: 4
+                                    }]
+                                };
+                                const ctx = document.getElementById('myChart');
+
+                                new Chart(ctx, {
+                                    type: 'doughnut',
+                                    data,
+
+                                });
+                            </script>
+<!--                            <div class="about-one__badge">-->
+<!--                                <img src="assets/images/resources/about-one-badge.png" alt="">-->
+<!--                            </div>-->
                         </div>
                     </div>
                 </div>

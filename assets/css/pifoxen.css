@@ -332,18 +332,18 @@ ul {
   letter-spacing: 0.1em;
 }
 
-.section-title__tagline::before {
-  position: absolute;
-  top: -15px;
-  left: 50%;
-  background-image: url(../images/icon/love-icon.png);
-  width: 11px;
-  height: 13px;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  content: "";
-  background-size: 100%;
-}
+/*.section-title__tagline::before {*/
+/*  position: absolute;*/
+/*  top: -15px;*/
+/*  left: 50%;*/
+/*  background-image: url(../images/icon/love-icon.png);*/
+/*  width: 11px;*/
+/*  height: 13px;*/
+/*  -webkit-transform: translateX(-50%);*/
+/*  transform: translateX(-50%);*/
+/*  content: "";*/
+/*  background-size: 100%;*/
+/*}*/
 
 .section-title__title {
   margin: 0;
