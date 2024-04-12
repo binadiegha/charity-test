@@ -2778,13 +2778,13 @@ ul {
 .we-believe {
   position: relative;
   display: block;
-  padding: 115px 0 90px;
+  padding:0;
   z-index: 1;
 }
 
 .we-believe-map {
   position: absolute;
-  top: 90px;
+  top: 0;
   left: 50%;
   height: 327px;
   width: 675px;
@@ -8187,7 +8187,7 @@ ul {
   right: 0;
   height: 540px;
   content: "";
-  background-color: var(--pifoxen-black);
+  background-color: var(--pifoxen-white);
   z-index: -1;
 }
 

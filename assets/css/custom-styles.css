@@ -1,0 +1,22 @@
+.fibroid-percentage {
+display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+@media screen and (max-width: 800px) {
+.fibroid-percentage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+}
+
+.padding-overide-20 {
+    /*padding: 20px 0;*/
+    border: 1px solid red;
+}
+
+.show {
+    border: 1px solid red;
+}
