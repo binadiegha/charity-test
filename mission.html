@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Contact || Pifoxen || Pifoxen HTML Template For Donation</title>
+    <title> Thrive Beyond Fibroids</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -48,6 +48,11 @@
     <link rel="stylesheet" href="assets/css/pifoxen.css" />
     <link rel="stylesheet" href="assets/css/pifoxen-responsive.css" />
     <link rel="stylesheet" href="assets/css/custom-styles.css" />
+
+    <!--    this code provide  jquery and resolves the navigation-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="resolve-header.js"></script>
+    <script src="resolve-page.js"></script>
 </head>
 
 <body>
@@ -56,111 +61,13 @@
 </div>
 <!-- /.preloader -->
 <div class="page-wrapper">
-    <header class="main-header clearfix">
-        <div class="main-header__top">
-            <div class="main-header__top-left">
-                <p class="main-header__top-text">Welcome to Thrive Beyond Fibroids</p>
-                <div class="main-header__top-social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="main-header__top-right">
-                <ul class="list-unstyled main-header__top-address">
-                    <li>
-                        <div class="icon">
-                            <span class="icon-pin"></span>
-                        </div>
-                        <div class="text">
-                            <p>Yenagoa, Bayelsa State</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="icon">
-                            <span class="icon-email"></span>
-                        </div>
-                        <div class="text">
-                            <p><a href="mailto:help@thrivebeyondfibroid.com">help@thrivebeyondfibroid.com</a></p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <nav class="main-menu clearfix">
-            <div class="main-menu-wrapper clearfix">
-                <div class="main-menu-wrapper__left">
-                    <div class="main-menu-wrapper__logo">
-                        <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
-                    </div>
-                    <div class="main-menu-wrapper__call">
-                        <div class="main-menu-wrapper__call-icon">
-                            <span class="icon-call"></span>
-                        </div>
-                        <div class="main-menu-wrapper__call-number">
-                            <p>Give us a call</p>
-                            <h5><a href="tel:13073330079">+ 234 (0) 903-4738-374</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="main-menu-wrapper__main-menu">
-                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                    <ul class="main-menu__list">
-                        <li class="dropdown">
-                            <a href="#">Understanding Fibroid Health</a>
-                            <ul>
-                                <li><a href="fibroids-abc.html">Fibroid ABC’s</a></li>
-                                <li><a href="symptoms-and-treatment.html">Symptoms & Treatment</a></li>
-                                <li><a href="#">Myths</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">About us</a>
-                            <ul>
-                                <li><a href="mission.html">Our Mission</a></li>
-                                <li><a href="founders-story.html">Founder's Story</a></li>
-                                <li><a href="vision.html">Our Vision</a></li>
-                                <li><a href="big-issues-we-are-fixing.html">Big Issues we’re fixing</a></li>
-                                <li><a href="impact.html">Impact</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">Projects</a>
-                            <ul>
-                                <li><a href="seconay-school.html">Secondary School Sensitization Project 001</a></li>
-                                <li><a href="our-stories.html">Our Stories</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">Get Involved</a>
-                            <ul>
-                                <li><a href="be-a-part.html">Be a Part</a></li>
-                                <li><a href="volunteer.html">Be a Part</a></li>
-                                <li><a href="share-your-story.html">Share your Story</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">Blog</a>
-                            <ul>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="research.html">Research</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="main-menu-wrapper__right">
-                    <!--      <div class="main-menu-wrapper__search-cat">
-                              <a href="#" class="main-menu-wrapper__search search-toggler icon-magnifying-glass"></a>
-                              <a href="login.html" class="main-menu-wrapper__cart icon-avatar mini-cart__toggler"></a>
-                          </div>-->
-                    <a href="donate-now.html" class="donate-btn main-menu-wrapper__btn"> <i class="fa fa-heart"></i>
-                        Donate Today</a>
-                </div>
-            </div>
-        </nav>
+    <header class="main-header clearfix" id="dynamicHeader">
     </header>
+    <!--    function call to resolve header -->
+    <script>
+        resolvePage('Mission')
+        resolveHeader('title')
+    </script>
 
     <div class="stricky-header stricked-menu main-menu">
         <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
@@ -191,9 +98,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                    <div class="about-page__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                    <div class="about-page__left wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-page__img">
-                            <img src="assets/images/resources/about-page-img-1.jpg" alt="">
+                            <img src="assets/images/resources/donations-list-img-3.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -297,143 +204,21 @@
     <!--Help People End-->
 
     <!--Site Footer Start-->
-    <footer class="site-footer">
-        <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.jpg);">
-        </div>
-        <div class="site-footer__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="footer-widget__column footer-widget__about">
-                            <div class="footer-widget__about-text-box">
-                                <p class="footer-widget__about-text">Your Donations can Change their Daily Life
-                                    Style</p>
-                            </div>
-                            <a href="donate-now.html" class="donate-btn footer-donate__btn"> <i
-                                    class="fa fa-heart"></i>
-                                Donate Now</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="footer-widget__column footer-widget__links clearfix">
-                            <h3 class="footer-widget__title">Links</h3>
-                            <ul class="footer-widget__links-list list-unstyled clearfix">
-                                <li><a href="donations.html">Recent Causes</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="events.html">New Campaign</a></li>
-                                <li><a href="about.html">Site Map</a></li>
-                                <li><a href="events.html">Events</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="footer-widget__column footer-widget__non-profit clearfix">
-                            <h3 class="footer-widget__title">Non Profit</h3>
-                            <ul class="footer-widget__non-profit-list list-unstyled clearfix">
-                                <li><a href="differently-abled-kids.html">Differently Abled Kids</a></li>
-                                <li><a href="help-child-cancer.html">Help Child Cancer</a></li>
-                                <li><a href="clean-pure-water.html">Clean Pure Water</a></li>
-                                <li><a href="give-them-education.html">Give them Education</a></li>
-                                <li><a href="start-a-fundraising.html">Start a Fundraising</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="footer-widget__column footer-widget__contact clearfix">
-                            <h3 class="footer-widget__title">Contact</h3>
-                            <ul class="list-unstyled footer-widget__contact-list">
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-email"></span>
-                                    </div>
-                                    <div class="text">
-                                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-telephone"></span>
-                                    </div>
-                                    <div class="text">
-                                        <a href="tel:307760608"> + 1 (307) 776-0608</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-pin"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>88 Broklyn Golden Street. New York United States of America</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="site-footer__bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="site-footer__bottom-inner">
-                            <p class="site-footer__bottom-text">© Copyright 2021 by <a href="#">BracketWeb</a>
-                            </p>
-                            <div class="site-footer__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <footer class="site-footer" id="dynamicFooter">
     </footer>
+    <script src="resolve-footer.js"></script>
     <!--Site Footer End-->
 
 
 </div><!-- /.page-wrapper -->
 
 
-<div class="mobile-nav__wrapper">
-    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-    <!-- /.mobile-nav__overlay -->
-    <div class="mobile-nav__content">
-        <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
-        <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png" alt="" /></a>
-        </div>
-        <!-- /.logo-box -->
-        <div class="mobile-nav__container"></div>
-        <!-- /.mobile-nav__container -->
-
-        <ul class="mobile-nav__contact list-unstyled">
-            <li>
-                <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@packageName__.com">needhelp@pifoxen.com</a>
-            </li>
-            <li>
-                <i class="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
-            </li>
-        </ul><!-- /.mobile-nav__contact -->
-        <div class="mobile-nav__top">
-            <div class="mobile-nav__social">
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-facebook-square"></a>
-                <a href="#" class="fab fa-pinterest-p"></a>
-                <a href="#" class="fab fa-instagram"></a>
-            </div><!-- /.mobile-nav__social -->
-        </div><!-- /.mobile-nav__top -->
-
-
-
-    </div>
+<div class="mobile-nav__wrapper" id="mobile-nav-wrapper">
     <!-- /.mobile-nav__content -->
+    <script src="resolve-mobile-nav.js"></script>
 </div>
+
+
 <!-- /.mobile-nav__wrapper -->
 
 <div class="search-popup">
