@@ -13,10 +13,33 @@ display: flex;
 }
 
 .padding-overide-20 {
-    /*padding: 20px 0;*/
-    border: 1px solid red;
+    padding: 0 0 100px ;
+
+    /*border: 1px solid red;*/
 }
 
 .show {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+}
+
+.override-space-before::before{
+    height: 0 !important;
+
+}
+
+.about-one__points-override li+li {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-block: 10px !important;
+}
+
+.about-one__points-override li div {
+   display: flex;
+    flex-direction: column;
+}
+
+.about-one__points-override li  {
+    display: flex;
+    align-items: flex-start;
+    margin-block: 10px;
 }
