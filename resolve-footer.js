@@ -51,7 +51,7 @@ function resolveFooter() {
                                             <span class="icon-email"></span>
                                         </div>
                                         <div class="text">
-                                            <a href="mailto:needhelp@company.com" class="insert-email">help@thrivebeyondfibroid.com</a>
+                                            <a href="mailto:needhelp@company.com" class="insert-email">help@jhghjgkjgkj.com</a>
                                         </div>
                                     </li>
                                     <li>
@@ -59,7 +59,7 @@ function resolveFooter() {
                                             <span class="icon-telephone"></span>
                                         </div>
                                         <div class="text">
-                                            <a href="tel:307760608" class="insert-phone"> + 234 (0) 903-7764-0608</a>
+                                            <a href="tel:307760608" class="insert-phone"> + 234 (0) 903-7764-00808</a>
                                         </div>
                                     </li>
                                     <li>
@@ -117,6 +117,7 @@ emails.forEach(email => {
     email.setAttribute('href', `mailto:${SupportEmail}`)
     email.innerHTML = SupportEmail
 } )
+
 
 
 
