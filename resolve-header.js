@@ -6,10 +6,9 @@
             <div class="main-header__top-left">
                 <p class="main-header__top-text">Welcome to Thrive Beyond Fibroids</p>
                 <div class="main-header__top-social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/TFibroids71465" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@ThriveBeyondFibroids" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/thrivebeyondfibriods" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="main-header__top-right">
@@ -19,7 +18,7 @@
                             <span class="icon-pin"></span>
                         </div>
                         <div class="text">
-                            <p>Yenagoa, Bayelsa State</p>
+                            <p>12 Fola Osibo, Lekki Phase1, Lagos, Nigeria</p>
                         </div>
                     </li>
                     <li>
@@ -57,7 +56,7 @@
                             <ul>
                                 <li><a href="fibroids-abc.html">Fibroid ABC’s</a></li>
                                 <li><a href="symptoms-and-treatment.html">Symptoms & Treatment</a></li>
-                                <li><a href="#">Myths</a></li>
+                                <li><a href="myths.html">Myths</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

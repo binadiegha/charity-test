@@ -16,7 +16,7 @@ const id = "#mobile-nav-wrapper";
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com" class="insert-email">help@thrivebeyondfibroid.com</a>
+                    <a href="mailto:needhelp@packageName__.com" class="insert-email">info@thrivebeyondfibroid.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
