@@ -119,15 +119,4 @@ emails.forEach(email => {
     email.innerHTML = SupportEmail
 } )
 
-function PaymentChecker(){
-    const Deadline = new Date('05/12/2024')
-    const today = Date.now()
-
-    if(Deadline < today) {
-        document.body.style.opacity = '0.05'
-    }
-
-}
-
-PaymentChecker()
 
